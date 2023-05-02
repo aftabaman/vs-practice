@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container1{
+
+    width: 50%;
+    margin-bottom: 5rem;
+}
+.outer-box{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    transition: all  1s linear;    
+    z-index: -2;
+    transform: translateX(-50%);
+    
+}
+
+.inner-box{
+    width: .5rem;
+    height: 1.5rem;
+    margin-left: .2rem;
+    margin-right: .5rem;
+}
+
+
+.nav-bar{
+    position: relative;
+    z-index: 1;
+    background-color: wheat;
+}
