@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+
+}
+.nav-logo-img{
+    width: 3rem;
+    height: 3rem;
+}
+
+a{
+    margin-inline: .5rem;
+    text-decoration: none;
+    color: rgba(34, 33, 33, 0.781);
+    font-size: 1.2rem;
+    font-weight:  500;
+    cursor: pointer;
+
+}
+
+a:hover{
+    color: black;
+    transition: all .2s;
+}
